@@ -2,7 +2,7 @@ curl -sSf https://raw.githubusercontent.com/WasmEdge/WasmEdge/master/utils/insta
 source $HOME/.wasmedge/env
 echo "WASMEDGE installed"
 echo "Installing ContainerD and CRUN"
-source container.sh
+curl -sSf https://raw.githubusercontent.com/sonichigo/wasmedge-demo-example/main/container.sh && source containerd.sh | bash
 echo "ContainerD + CRUN Installed"
 echo "Fetching for k8s"
-source k8s.sh
+curl -sSf https://raw.githubusercontent.com/sonichigo/wasmedge-demo-example/main/k8s.sh && source k8s.sh | bash
