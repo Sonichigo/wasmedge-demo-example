@@ -6,14 +6,14 @@ A Simple WASMI Demo to run k8s + ContainerD + Crun
 ### Using wget
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/sonichigo/wasmedge-demo-example/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/sonichigo/wasmedge-demo-example/main/install.sh | bash
 ```
 
-### Using Curl
+<!-- ### Using Curl
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/wasmedge-demo-example/main/install.sh && source install.sh | bash
-```
+``` -->
 
 ## Run WebAssembly container images in Kubernetes
 
