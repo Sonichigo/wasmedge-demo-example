@@ -6,4 +6,4 @@ curl -sSf https://raw.githubusercontent.com/sonichigo/wasmedge-demo-example/main
 echo "ContainerD + CRUN Installed"
 cd ../
 echo "Fetching for k8s"
-wget -qO- https://raw.githubusercontent.com/sonichigo/wasmedge-demo-example/main/install.sh && source k8s.sh | bash
+wget -qO- https://raw.githubusercontent.com/sonichigo/wasmedge-demo-example/main/k8s.sh && source k8s.sh | bash
