@@ -1,9 +1,7 @@
-# wasmedge-demo-example
-A Simple WASMI Demo to run k8s + ContainerD + Crun
+# WASM + CRUN + ContainerD 
+A hands-on demo to run WebAssembly (WASM) workloads in Kubernetes using containerd, crun, and WasmEdge — all in a few commands!
 
-## Installation
-
-### Using wget
+## Using wget
 
 ```bash
 wget -qO- https://raw.githubusercontent.com/sonichigo/wasmedge-demo-example/main/install.sh | bash
@@ -20,7 +18,7 @@ curl -fsSL https://raw.githubusercontent.com/wasmedge-demo-example/main/install.
 Finally, we can run WebAssembly programs in Kubernetes as containers in pods. In this section, we will start from another terminal window and start using the cluster.
 
 ```bash
-cd kubernetes && git checkout v1.22.4
+cd kubernetes && git checkout v1.29.0
 
 export KUBERNETES_PROVIDER=local
 
